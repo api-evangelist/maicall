@@ -1,7 +1,26 @@
 aid: maicall
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maicall.png
 name: MaiCall
-description: MaiCall is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MaiCall is an AI-powered debt collection platform for non-bank lenders,
+  microfinance companies, and collection agencies. Its self-learning voice agents place
+  outbound collection calls, negotiate payment plans, and follow up across WhatsApp,
+  SMS, and email in 30+ languages and native accents, capturing promises to pay and
+  tracking recovery, contact, and cost metrics in real time. The company was surfaced
+  as a portfolio company of 500 Global and added to the API Evangelist network. MaiCall
+  advertises custom API integrations to loan-management systems, CRMs, SIP trunks, and
+  payment gateways on request, but publishes no self-serve public API, developer portal,
+  or OpenAPI definition at this time.
 url: https://raw.githubusercontent.com/api-evangelist/maicall/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Debt Collection
+- Collections
+- Voice AI
+- Conversational AI
+- Fintech
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://maicall.ai
+- type: Pricing
+  url: https://maicall.ai/pricing
+- type: Blog
+  url: https://maicall.ai/blog
+- type: Support
+  url: https://maicall.ai/contact
+- type: SignUp
+  url: https://maicall.ai/sign-up
+- type: Login
+  url: https://maicall.ai/login
+- type: TermsOfService
+  url: https://maicall.ai/terms-condition
+- type: PrivacyPolicy
+  url: https://maicall.ai/privacy-policy
+- type: DomainSecurity
+  url: security/maicall-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
